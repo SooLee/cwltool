@@ -53,10 +53,11 @@ setup(name='cwltool',
           'ruamel.yaml >= 0.12.4, < 0.15',
           'rdflib >= 4.2.2, < 4.3.0',
           'shellescape >= 3.4.1, < 3.5',
-          'schema-salad >= 2.6, < 3',
+          # 'schema-salad >= 2.6, < 3',
           'typing >= 3.5.3',
           'six >= 1.8.0',
       ],
+      dependency_links = ['https://github.com/4dn-dcic/schema_salad/tarball/master#egg=schema-salad-2.6.20170927145003'],
       extras_require={
           'deps': ["galaxy-lib >= 17.09.3"]
       },
